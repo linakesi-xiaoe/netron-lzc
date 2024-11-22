@@ -1,0 +1,28 @@
+编译镜像:
+
+docker build -t netron-latest .
+
+运行:
+
+docker run netron-latest
+
+使用:
+
+浏览器打开localhost:8080
+
+
+
+集成lzc-cli
+
+打包:
+
+lzc-cli project build # 会生成一个lpk
+
+安装:
+
+lzc-cli app install xxx.lpk
+
+
+使用:
+
+浏览器打开 https://netron.$boxname.heiyu.space

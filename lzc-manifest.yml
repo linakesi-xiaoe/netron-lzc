@@ -1,0 +1,13 @@
+lzc-sdk-version: 0.1
+name: Netron
+package: xduyzy.lzcapp.netron
+version: 0.0.1
+description:
+license: https://choosealicense.com/licenses/mit/
+homepage:
+author:
+application:
+  subdomain: netron
+  image: registry.lazycat.cloud/netron:0.0.7
+  routes:
+    - /=exec://8080,/root/run.sh
